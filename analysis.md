@@ -102,7 +102,30 @@ https://proposal-router.claude-ai-b27.workers.dev/proposal-smart-factory-vision-
 20일
 
 ### 클라이언트 질문 답변
-해당 없음
+
+**Q: 유사한 프로젝트를 수행한 경험이 있다면 무엇입니까?**
+
+네, B2B 기업 사이트·콘텐츠 관리 시스템·폼-CRM 연동 영역에서 다수의 유사 프로젝트를 수행하였습니다.
+
+▶ Series-B — VC 펀드 관리 포탈 (2023.11~2024.12)
+- B2B 50+ 페이지 규모의 마케팅·정보 포탈 구축
+- 다국어(국문/영문) 통합 콘텐츠 관리, 22개 도메인 모듈 모듈형 설계
+- 폼 제출 → 백오피스 자동 연동(리드 생성·알림 워크플로우) — 본 건 HubSpot Form-CRM 연동에 직접 적용 가능
+- 기술: Next.js 13, NestJS 10, MySQL, AWS
+
+▶ EZ-Approve — 전자결재 SaaS 플랫폼 (2026.01~2026.03)
+- 50+ 페이지 B2B SaaS, 비개발자가 콘텐츠를 직접 운영하는 모듈 기반 구조 — HubSpot 모듈 설계와 동일 철학
+- 리치 에디터 기반 콘텐츠 관리(170 파일, 26 커스텀 노드), 다국어 통합 관리
+- 반응형 웹(PC/Mobile) 풀스택 구축
+- 기술: Next.js 13, NestJS 10, TypeScript, MySQL 8, Lexical, MUI v5
+
+▶ Harmony Link — 시니어 주간보호 관리 플랫폼 (2025)
+- B2B SaaS — 콘텐츠/공지/안내 통합 관리 시스템 구축
+- 다국어 키 2,532개·140+ API, 반응형 웹 + 호스팅/DNS/SSL 인프라 풀스택 구성(AWS CDK)
+- HubSpot CMS 도메인 연결·SEO 셋업에 동일 노하우 적용 가능
+- 기술: Next.js, NestJS, Flutter, MySQL, AWS CDK, Docker
+
+위 3개 프로젝트 모두 본인이 100% 참여율로 기획부터 배포까지 직접 수행한 사례이며, 본 프로젝트의 핵심 요구사항인 ① B2B 신뢰감 있는 정보 위계 설계 ② 모듈 기반 콘텐츠 관리 ③ 폼 → CRM 자동 연동 ④ 반응형 웹 + 호스팅 셋업 모두 동일하게 적용 가능합니다.
 
 ### 지원 내용
 
