@@ -92,4 +92,121 @@ job:
 
 ## 6. 최종 산출물 (8단계 출력 전문)
 
-(8단계 완료 후 추가)
+### 제안서 사이트 URL
+https://proposal-router.claude-ai-b27.workers.dev/proposal-smart-factory-vision-landing/
+
+### 지원 금액
+2,700,000원
+
+### 지원 기간
+20일
+
+### 클라이언트 질문 답변
+해당 없음
+
+### 지원 내용
+
+안녕하세요, 스마트 팩토리 비전 검사 서비스 소개 홈페이지 개발 프로젝트에 지원합니다.
+
+본 프로젝트에 대한 상세 제안서(견적서, 공수계산서, PRD, 일정, 포트폴리오)를 별도 페이지로 준비하였습니다. 아래 링크에서 확인해 주시면 감사하겠습니다.
+▶ 제안서 상세 페이지: https://proposal-router.claude-ai-b27.workers.dev/proposal-smart-factory-vision-landing/
+▶ 위시켓 포트폴리오: https://www.wishket.com/partners/p/blueverse1/
+
+---
+
+<프로젝트 진행 제안>
+
+■ 프로젝트 분석
+- 스마트 팩토리 비전 검사 서비스의 시장 확대를 위한 B2B 산업 솔루션 랜딩 페이지 신규 구축
+- 핵심 3 메뉴(① 회사/서비스 소개 ② 주요 기술/솔루션 ③ 문의하기)를 중심으로 참고 사이트 절반 규모로 구성
+- HubSpot CMS Hub 기반 구축으로 기존 HubSpot CRM과 유기적 연동 → 별도 미들웨어 없이 마케팅 자동화 즉시 가능
+- 향후 블로그 기능 확장을 고려한 모듈형 구조 설계 (Listing/Post 템플릿, 카테고리·태그·RSS·SEO 자동화 사전 셋업)
+- HubSpot 활용이 어려운 경우 WordPress / 아임웹 기반 대안 제안 (블로그 확장성 동일 보장)
+- PC/Mobile 반응형 구현 + Lighthouse 성능 점검 포함
+
+■ 작업 일정
+
+[Phase 1 — 킥오프 / 기획] Day 1~3
+- 요구사항 인터뷰, 사이트맵·IA 정의, HubSpot 모듈 구조 설계, 콘텐츠 자료 수집 가이드 전달
+
+[Phase 2 — 환경 셋업 / 디자인 적용] Day 4~7
+- HubSpot CMS Hub 환경 구성, 도메인/SSL 연결
+- 제공 디자인 가이드 → 디자인 토큰(컬러·타이포·간격) 정의
+- 헤더/푸터 글로벌 모듈, 베이스 테마 개발
+
+[Phase 3 — 페이지 개발] Day 8~15
+- 회사/서비스 소개 → 주요 기술/솔루션 → 문의하기 순으로 반응형(PC/Tablet/Mobile) 마크업 및 HubL 템플릿 개발
+- 공통 페이지(404, 폼 제출 완료) 구현
+
+[Phase 4 — CRM 연동 / 블로그 기반] Day 16~17
+- 문의 폼 → HubSpot CRM Lead 자동 생성 + 알림 워크플로우 구성
+- Blog Listing/Post 템플릿, 카테고리·태그·RSS·SEO 자동화 셋업
+
+[Phase 5 — QA / 배포] Day 18~20
+- 크로스 브라우저(Chrome/Safari/Edge) 및 모바일(iOS/Android) 검증, Lighthouse 점검
+- GA4 셋업, 최종 배포 및 운영 가이드 전달
+
+■ 마일스톤 및 산출물
+- M1 (Day 3): 요구사항 정의서, 사이트맵, HubSpot 모듈 설계서
+- M2 (Day 7): HubSpot 환경, 도메인 연결, 디자인 토큰 / 글로벌 모듈
+- M3 (Day 15): 3 메뉴 반응형 구현 + 콘텐츠 입력 검수
+- M4 (Day 17): 폼 → CRM Lead 자동 생성 검증, 블로그 템플릿 셋업
+- M5 (Day 20): 라이브 도메인 배포, 운영 가이드, 1개월 무상 하자 보수 시작
+
+■ 미팅 시 협의 필요 사항
+- HubSpot CMS Hub 라이선스 등급 및 접근 권한 공유 방식
+- 디자인 가이드/콘텐츠(텍스트·이미지·동영상) 전달 일정 및 형태
+- 도메인/DNS 권한 및 연결 방식
+- 참고 사이트 대비 구체적으로 우선시할 섹션(고객 로고, 케이스 카드 등)
+- HubSpot 외 대안(WordPress/아임웹) 검토 여부
+- 향후 블로그 운영 담당자/발행 주기 (운영 가이드 수준 결정)
+
+---
+
+<유사 프로젝트 진행 경험>
+
+▶ EZ-Approve — 전자결재 SaaS 플랫폼 (2026.01~2026.03)
+- 프로젝트 유형: B2B SaaS / 기업용 콘텐츠·관리 시스템
+- 핵심 기능: 50+ 페이지 규모 어드민/포탈, 모듈 기반 콘텐츠 관리, 다국어(국문/영문), 반응형 웹
+- 유사점: 비개발자가 콘텐츠를 직접 운영할 수 있는 모듈형 구조 — HubSpot 모듈 설계와 동일 철학
+- 기술 스택: Next.js 13, NestJS 10, TypeScript, MySQL 8, Lexical, MUI v5
+
+▶ Series-B — VC 펀드 관리 포탈 (2023.11~2024.12)
+- 프로젝트 유형: B2B SaaS / 50+ 페이지 포탈
+- 핵심 기능: 다국어(국문/영문) 통합 마케팅 사이트, 22 도메인 모듈, 폼 → 백오피스 자동 연동, 5계층 보안
+- 유사점: B2B 마케팅·정보 사이트 IA 설계 + 폼-백오피스 자동 연동 → HubSpot Form-CRM 연동에 직접 적용
+- 기술 스택: Next.js 13, NestJS 10, MySQL, AWS, Lexical
+
+▶ Harmony Link — 시니어 주간보호 관리 플랫폼 (2025)
+- 프로젝트 유형: B2B SaaS / 콘텐츠·관리 시스템
+- 핵심 기능: 멀티테넌트 콘텐츠 관리, 140+ API, 다국어 키 2,532개, 반응형 웹 + 풀스택 인프라(AWS CDK)
+- 유사점: 운영자가 콘텐츠를 직접 관리하는 CMS 구조, 호스팅/DNS/SSL 인프라 셋업 노하우 → HubSpot CMS 도메인 연결에 적용
+- 기술 스택: Next.js, NestJS, Flutter, MySQL, AWS CDK, Docker
+
+---
+
+<사용 기술과 툴>
+
+▶ 개발 기술
+- CMS: HubSpot CMS Hub (HubL 템플릿, 모듈, Theme), HubSpot CRM Form / Workflow, HubSpot Blog Module
+- Frontend: HTML5, CSS3 / SCSS, JavaScript (ES6+), 반응형 (Flexbox / Grid)
+- 분석: Google Analytics 4, HubSpot Tracking Code
+- SEO: 페이지별 메타·OG 태그, sitemap.xml, robots.txt, RSS
+- 대안 솔루션 옵션: WordPress, 아임웹 (블로그 확장성 동일 보장)
+
+▶ 개발 도구 및 인프라
+- 버전 관리: GitHub
+- CI/CD: GitHub Actions (정적 자산), HubSpot CLI
+- 클라우드: HubSpot CMS (호스팅 / CDN / SSL 자동 처리)
+- 디자인 핸드오프: Figma
+
+▶ 커뮤니케이션
+- 일일 진행 공유: Slack 또는 카카오톡
+- 주간 미팅: Zoom / Google Meet
+- 문서 공유: Notion 또는 Google Docs
+- 이슈 트래킹: GitHub Issues 또는 Linear
+
+### 관련 포트폴리오 추천
+1. EZ-Approve — 50+ 페이지 B2B SaaS, 모듈 기반 콘텐츠 관리, 비개발자 운영 구조
+2. Series-B — B2B 포탈, 폼 → 백오피스 자동 연동, 통합 콘텐츠 관리
+3. Harmony Link — B2B 콘텐츠/공지 관리, 반응형 웹, 호스팅/인프라 셋업 경험
